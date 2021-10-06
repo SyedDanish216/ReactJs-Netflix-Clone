@@ -1,0 +1,112 @@
+.navbar{
+    
+        position: fixed;
+        top: 0;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        background-color: black;
+        height: 80px;
+         z-index: 999;
+        background: linear-gradient(to top,transparent 0%,rgba(0,0,0,0.3)); 
+        
+        
+        
+      
+}
+.navbar .containers{
+    padding: 0px 50px;
+  
+    height: 70px;
+    width: 100%;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+.navbar .containers .left {
+    display: flex;
+    align-items: center;
+    
+}
+.navbar .containers .left img{
+height: 25px;
+margin-right: 20px;
+margin-left: 10px;
+}
+.navbar .containers .left span{
+    margin-right: 20px;
+    cursor: pointer;
+}
+/* .navbar button{
+    z-index: 999;
+}
+.navbar ul li a{
+  
+    color: white
+} */
+.containers .right{
+    display: flex;
+    align-items: center;
+ 
+}
+.containers .right img{
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+}
+.navbar .containers .right i{
+    margin: 0 15px;
+}
+.navbar .containers .right img{
+    height: 30px;
+    width: 30px;
+}
+
+.right .profile .options{
+display: none;
+background-color: black;
+border-radius: 5px;
+
+
+position: absolute;
+
+
+
+
+}
+.right .profile .options span{
+    
+    cursor: pointer;
+    padding: 10px;
+  
+    
+}
+.right .profile:hover>.options{
+display: flex;
+flex-direction: column;
+position: absolute;
+
+}
+.scrolled{
+    background-color: black;
+}
+
+/* For Tablet*/
+@media screen and (max-width: 780px) {
+ .containers .left span{
+     display: none;
+ }
+  }
+
+  @media screen and (max-width: 480px){
+    .navbar .containers .left img{
+        height: 25px;
+        margin-right: 5px;
+        margin-left: 0px;
+        
+        }
+  }
+

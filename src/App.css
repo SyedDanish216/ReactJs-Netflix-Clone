@@ -1,0 +1,19 @@
+*{
+  font-family: 'Roboto', sans-serif;
+  
+  margin: 0;
+  padding: 0;
+ 
+  
+
+}
+.home{
+  overflow: hidden;
+}
+.navlink{
+  text-decoration: none;
+  color: white;
+}
+.navlink:hover{
+  color: white;
+}
